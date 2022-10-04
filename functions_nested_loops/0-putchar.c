@@ -1,11 +1,20 @@
-#include <unistd.h>
+#include <stdio.h>
 /**
- * main - check the code
+ * main - Main function
  *
- * Return: Always 0.
+ * Return: Exit status code
  */
 int	main(void)
 {
-	write(1, "_putchar\n", 9);
+	char	*str;
+	int	i;
+
+	str = "_putchar\n";
+	i = 0;
+	while (str[i])
+	{
+		putchar(str[i]);
+		i++;
+	}
 	return (0);
 }
