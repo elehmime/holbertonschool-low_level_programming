@@ -19,4 +19,5 @@ void print_alphabet_x10(void)
 		}
 		i++;
 	}
+	write(1, "\n", 1);
 }
