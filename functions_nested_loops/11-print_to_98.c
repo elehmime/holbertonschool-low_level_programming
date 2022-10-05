@@ -3,7 +3,7 @@
 /**
  *print_to_98 - function
  *
- *@n - param
+ *@n: param
  */
 void	print_to_98(int n)
 {
