@@ -9,7 +9,7 @@ int	main(void)
 
 	if (c < 100)
 	{
-		while (c < 100)
+		while (c <= 100)
 		{
 			if (c % 5 == 0 && c % 3 == 0)
 			{
@@ -17,7 +17,13 @@ int	main(void)
 			}
 			else if (c % 5 == 0)
 			{
-				printf("buzz ");
+				if (c == 100)
+				{
+					printf("buzz");
+					printf("\n");
+				}
+				else
+					printf("buzz ");
 			}
 			else if (c % 3 == 0)
 			{
@@ -29,8 +35,6 @@ int	main(void)
 			}
 			c++;
 		}
-		printf("buzz");
-		printf("\n");
 	}
 	return (0);
 }
