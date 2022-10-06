@@ -29,7 +29,8 @@ int	main(void)
 			}
 			c++;
 		}
-		printf("buzz\n");
+		printf("buzz");
+		printf("\n");
 	}
 	return (0);
 }
