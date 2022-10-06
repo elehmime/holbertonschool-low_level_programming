@@ -14,15 +14,15 @@ int	main(void)
 		{
 			if (c % 5 == 0 && c % 3 == 0)
 			{
-				printf("fizzbuzz ");
+				printf("Fizzbuzz ");
 			}
 			else if (c % 5 == 0)
 			{
-				printf("buzz ");
+				printf("Buzz ");
 			}
 			else if (c % 3 == 0)
 			{
-				printf("fizz ");
+				printf("Fizz ");
 			}
 			else
 			{
@@ -30,7 +30,7 @@ int	main(void)
 			}
 			c++;
 		}
-		printf("buzz");
+		printf("Buzz");
 		printf("\n");
 	}
 	return (0);
