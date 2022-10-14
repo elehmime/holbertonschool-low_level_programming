@@ -1,19 +1,23 @@
-#include "mainh"
+#include "main.h"
 /**
  **_memset - function
- *@s: void
- *@c: int
- *@n: size_t
+ *@s: char
+ *@b: char
+ *@n: unsigned int
  *
  *Return: value
  */
-void	*_memset(void *s, int c, size_t n)
+char	*_memset(char *s, char b, unsigned int n)
 {
-	unsigned int i;
-	unsigned char *m = s, value = c;
+	unsigned int	x;
 
-	for (i = 0; i < n; i++)
-		m[i] = value;
-
-	return (m);
+	if (s == 0)
+		return (0);
+	x = 0;
+	while (x < n)
+	{
+		s[x] = b;
+		x++;
+	}
+	return (s);
 }
