@@ -3,7 +3,7 @@
  **_memcpy - function
  *@dest: char
  *@src: char
- *@n unsigned int
+ *@n: unsigned int
  *
  *Return: value
  */
